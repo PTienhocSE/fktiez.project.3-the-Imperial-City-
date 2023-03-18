@@ -1,0 +1,70 @@
+body{
+    height: auto !important;
+}
+/* BEGIN SLIDER  */
+#slider .slider__title{
+    position: relative;
+    top: -374px !important;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 87px;
+    color: #d6e3f3 !important;
+    opacity: 0.8;
+}
+#slider .slider__btn .slider__btn--btn{
+    padding: 16px 50px;
+    border-style: none;
+    border-radius: 30px;
+    transition: all 410ms ease;
+    cursor: pointer;
+    color: white;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 600;
+    background: linear-gradient(to right, #527dc8,#8b7fb4,#3264a0,#4e5e88) !important;
+}
+#slider .slider__btn .slider__btn--btn:hover{
+    background: linear-gradient(to left, #527dc8,#8b7fb4,#3264a0,#4e5e88) !important;
+
+}
+/* BEGIN CONTENT  */
+.content__intro{
+    padding: 60px 100px;
+    display: flex;
+}
+.content__intro--img{
+    width: 40%;
+}
+.content__intro--infor{
+    padding: 0px 0px 0 80px;
+    width: 60%;
+
+}
+.content__intro--infor--title,
+.content__ThienMuPagoda--infor--title{
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 700;
+}
+.content__intro--infor--desc,
+p.content__ThienMuPagoda--infor--desc{
+    color: #929191;
+    margin-top: 30px;
+    line-height: 2;
+    text-align: justify;
+    padding-bottom: 35px;
+    font-weight: 600;
+}
+.content__ThienMuPagoda{
+    display: flex;
+    padding: 60px 100px;
+    background-color: #F5F9FB;
+}
+.content__ThienMuPagoda--img{
+    width: 40%;
+}
+.content__ThienMuPagoda--infor{
+    width: 60%;
+    padding: 0 80px 0 0;
+}
