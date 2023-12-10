@@ -1,0 +1,19 @@
+/* MOBILE  */
+@media(max-width: 740px){
+.nav--mobile{
+    display: hide;
+}
+#navbar #bignav .bignav__selection .bignav__selection--list{
+    display: none!important;
+}
+
+}
+/* PC  */
+@media(min-width: 740px){
+.nav--mobile{
+    display: none;
+}
+}
+/* TABLET  */
+@media(min-width: 740px) and (max-width: 1240px){
+}
